@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jan 20 04:01:18 EET 2023</td>
+</tr>
+<tr><td>Total time:</td><td>268 seconds (268545 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add product to store in wishlist successfully and quantity is increased", "F09_Wishlist | user could add products in wishlist"</td>
+<td></td>
+<td>28</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: ": user could make  order by clicking on checkout", "F12 create success order| validate that create order successfully"</td>
+<td></td>
+<td>19</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could login successfully with valid data", "F02_login page | user should login page with his valid email and password"</td>
+<td></td>
+<td>9</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could search on any product", "F04_ search feature | validate that search works exactly"</td>
+<td></td>
+<td>10</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could recover his password by email", "F03_recovery password | user could recover his password successfully by valid email"</td>
+<td></td>
+<td>12</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user can search on products by using tags", "F08_tags feature| ensure that popular tags work correctly"</td>
+<td></td>
+<td>12</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could register with valid data successfully", "F01_Registration | user can register a new account"</td>
+<td></td>
+<td>18</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could select on currency", "F05_currency feature | user could change currency"</td>
+<td></td>
+<td>8</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add products inside cart shopping", "F10_Add cartShop Feature | add products inside cart shopping successfully"</td>
+<td></td>
+<td>14</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add products inside cart shopping", "F10_Add cartShop Feature | add products inside cart shopping successfully"</td>
+<td></td>
+<td>14</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user can filter products by using color in shoes subcategory", "F07_filter feature | can filter products by color"</td>
+<td></td>
+<td>8</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could search for product with sku", "F04_ search feature | validate that search works exactly"</td>
+<td></td>
+<td>22</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could select different products and do comparing between them", "F11_comparing products | users can compare between products and other successfully"</td>
+<td></td>
+<td>54</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could choose random main category and sub category if found", "F06 categories feature | choose main category and sub category if found successfully"</td>
+<td></td>
+<td>18</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add products inside cart shopping", "F10_Add cartShop Feature | add products inside cart shopping successfully"</td>
+<td></td>
+<td>14</td>
+<td>org.example.testRunner.runners@77ec78b9</td></tr>
+</table><p>
+</body>
+</html>
